@@ -55,7 +55,7 @@ buildscript {
   ext {
     isSnapshot = "true" == System.getProperty("build.snapshot", "true")
     opensearch_version = System.getProperty("opensearch.version", "2.11.0")
-    lucene_version = "9.7.0"
+    lucene_version = "9.8.0"
     plugin_version = opensearch_version + ".0"
     if (isSnapshot) {
       opensearch_version += "-SNAPSHOT"
